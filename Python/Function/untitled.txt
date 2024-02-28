@@ -1,0 +1,31 @@
+print data type is NoneType
+
+""" THis is  my function"""
+-> Doc string of function
+
+
+* -> n number of arguments you can pass inside function 
+and input store in form of tuples(*args or *sudh)
+
+** -> take arguments in key vale pair and return dict
+
+
+as much large list take large memory to reduce memory consumption we use generator function
+
+def test_fib(n):
+    a,b=0,1
+    for i in range(n):
+        yield a
+        a,b = b, a+b
+
+yield used to throw a .wherever we use yield that is called generator function
+
+range are by default generator function
+
+for loop take input and calculate length of string make it iterable by putting it into iter and then print element using next() function (for loop know that where iteration stop)
+
+
+string,tuples,list are by default iterable . it means those are iterable are only converted into iterator
+ those are not are not converted into iterator
+
+generator means iterable
